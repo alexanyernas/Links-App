@@ -1,6 +1,13 @@
 <template>
   <div class="container_link">
-    <a class="link" :href="url"><i :class="icon"></i><span>{{text}}</span></a>
+    <a 
+      class="link" 
+      :style="{'color': styles.color, 'background-color': styles.background}" 
+      :href="url"
+    >
+      <i :class="icon"></i>
+      <span>{{text}}</span>
+    </a>
   </div>
 </template>
 
@@ -10,7 +17,8 @@ export default {
     props: {
       text: String,
       icon: String,
-      url: String
+      url: String,
+      styles: Object
     }
 }
 </script>
@@ -19,14 +27,23 @@ export default {
 .link
 {
   display: inline-block;
-  padding: 15px;
-  border: 2px solid #000;
+  padding: 18px;
+  border: 2px solid inset;
   margin-bottom: 12px;
-  border-radius: 15px;
   text-decoration: none;
+  border-radius: 16px 0 16px 0;
   color: #000;
   width: 100%;
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: .4s;
+
+  &:hover
+  {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px #fff;
+  }
 
   i
   {
@@ -35,4 +52,5 @@ export default {
     font-size: 20px;
   }
 }
+
 </style>

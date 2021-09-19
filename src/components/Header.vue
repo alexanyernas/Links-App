@@ -1,8 +1,8 @@
 <template>
     <header class="header">
         <div class="img"></div>
-        <h4 class="title">Alexanyer Naranjo</h4>
-        <p class="description">Desarrollador Web con una gran pasión por el aprendizaje, el café y las galletas ☕</p>
+        <h3 class="title">Alexanyer Naranjo</h3>
+        <p class="description">Desarrollador web con un gran amor por el aprendizaje ☕</p>
     </header>
 </template>
 
@@ -19,7 +19,8 @@ export default {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 15px;
+    color: #FFF;
 
     .img
     {
@@ -35,11 +36,12 @@ export default {
     .title
     {
         margin-bottom: 10px;
+        font-family: cursive;
     }
 
     .description
     {
-        font-size: 16px;
+        font-family: cursive;
         margin-bottom: 15px;
     }
 }

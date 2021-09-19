@@ -1,27 +1,33 @@
 <template>
-  <div class="container">
-    <main class="main">
-      <Header />
-      <div class="links" v-for="(link, index) in links" :key="index">
-        <Link 
-          :text="link.text" 
-          :icon="link.icon" 
-          :url="link.url"
-        />
-      </div>
-    </main>
+  <div class="body">
+    <div class="container">
+      <main class="main">
+        <Header />
+        <div class="links" v-for="(link, index) in links" :key="index">
+          <Link 
+            :text="link.text" 
+            :icon="link.icon" 
+            :url="link.url"
+            :styles="link.styles"
+          />
+        </div>
+        <Footer />
+      </main>
+    </div>
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
 import Link from './Link.vue'
+import Footer from './Footer.vue'
 
 export default {
     name: 'LinksApp',
     components: {
       Header,
-      Link
+      Link,
+      Footer
     },
     data () {
       return {
@@ -29,22 +35,38 @@ export default {
           {
             text: 'Facebook',
             icon: 'fab fa-facebook',
-            url: 'https://facebook.com/alexanyernas/'
+            url: 'https://facebook.com/alexanyernas/',
+            styles: {
+              color: '#FFF',
+              background: '#3b5998'
+            }
           },
           {
             text: 'GitHub',
             icon: 'fab fa-github',
-            url: 'https://github.com/alexanyernas/'
+            url: 'https://github.com/alexanyernas/',
+            styles: {
+              color: '#FFF',
+              background: '#333'
+            }
           },
           {
             text: 'Instagram',
             icon: 'fab fa-instagram',
-            url: 'https://instagram.com/alexanyernas'
+            url: 'https://instagram.com/alexanyernas',
+            styles: {
+              color: '#FFF',
+              background: '#de1b85'
+            }
           },
           {
             text: 'Twitter',
             icon: 'fab fa-twitter',
-            url: 'https://twitter.com/alexanyernas/'
+            url: 'https://twitter.com/alexanyernas/',
+            styles: {
+              color: '#FFF',
+              background: '#00acee'
+            }
           }
         ]
       }
@@ -57,7 +79,7 @@ export default {
 {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -67,9 +89,18 @@ export default {
   box-sizing: border-box;
 }
 
+body
+{
+  background-image: url('../assets/Background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 .container
 {
   padding: 32px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  min-height: 102vh;  
 }
 
 .main
@@ -81,7 +112,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%;
+  width: 35%;
 }
 
 @media only screen and (max-width: 600px)
