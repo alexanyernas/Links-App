@@ -6,7 +6,7 @@
       :href="url"
     >
       <i :class="icon"></i>
-      <span>{{text}}</span>
+      <span>{{ text }}</span>
     </a>
   </div>
 </template>
@@ -15,9 +15,9 @@
 export default {
     name: 'Link',
     props: {
-      text: String,
-      icon: String,
-      url: String,
+      text:   String,
+      icon:   String,
+      url:    String,
       styles: Object
     }
 }
@@ -28,11 +28,9 @@ export default {
 {
   display: inline-block;
   padding: 18px;
-  border: 2px solid inset;
   margin-bottom: 12px;
   text-decoration: none;
   border-radius: 16px 0 16px 0;
-  color: #000;
   width: 100%;
   text-align: center;
   font-weight: 600;
@@ -42,14 +40,14 @@ export default {
   &:hover
   {
     transform: scale(1.1);
-    box-shadow: 2px 2px 3px #fff;
+    box-shadow: 2px 2px 2px #fff;
   }
 
   i
   {
     position: absolute;
     left: 25px;
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 

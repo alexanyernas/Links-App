@@ -6,12 +6,6 @@
     </header>
 </template>
 
-<script>
-export default {
-    name: 'Header'
-}
-</script>
-
 <style lang="scss">
 .header
 {
@@ -36,12 +30,10 @@ export default {
     .title
     {
         margin-bottom: 10px;
-        font-family: cursive;
     }
 
     .description
     {
-        font-family: cursive;
         margin-bottom: 15px;
     }
 }

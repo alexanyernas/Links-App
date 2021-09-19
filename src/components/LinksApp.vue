@@ -112,7 +112,7 @@ body
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 600px)
