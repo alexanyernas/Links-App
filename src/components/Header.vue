@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     color: #FFF;
 
     .img
@@ -36,13 +36,5 @@
     {
         margin-bottom: 15px;
     }
-}
-
-@media only screen and (max-width: 600px)
-{
-  .header
-  {
-    margin-top: 80px
-  }
 }
 </style>
