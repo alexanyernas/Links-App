@@ -60,6 +60,15 @@ export default {
             }
           },
           {
+            text: 'Linkedin',
+            icon: 'fab fa-linkedin',
+            url: 'https://www.linkedin.com/in/alexanyernas/',
+            styles: {
+              color: '#FFF',
+              background: '#0e76a8'
+            }
+          },
+          {
             text: 'Twitter',
             icon: 'fab fa-twitter',
             url: 'https://twitter.com/alexanyernas/',
@@ -100,7 +109,7 @@ body
 {
   padding: 32px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-  min-height: 102vh;  
+  min-height: 115vh;  
 }
 
 .main
