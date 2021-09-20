@@ -60,7 +60,7 @@ export default {
             }
           },
           {
-            text: 'Linkedin',
+            text: 'LinkedIn',
             icon: 'fab fa-linkedin',
             url: 'https://www.linkedin.com/in/alexanyernas/',
             styles: {
