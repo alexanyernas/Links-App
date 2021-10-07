@@ -3,7 +3,11 @@
     <div class="container">
       <main class="main">
         <Header />
-        <div class="links" v-for="(link, index) in links" :key="index">
+        <div 
+          class="links" 
+          v-for="(link, index) in links" 
+          :key="index"
+        >
           <Link 
             :text="link.text" 
             :icon="link.icon" 
@@ -32,15 +36,15 @@ export default {
     data () {
       return {
         links: [
-          {
-            text: 'Facebook',
-            icon: 'fab fa-facebook',
-            url: 'https://facebook.com/alexanyernas/',
-            styles: {
-              color: '#FFF',
-              background: '#3b5998'
-            }
-          },
+          // {
+          //   text: 'Facebook',
+          //   icon: 'fab fa-facebook',
+          //   url: 'https://facebook.com/alexanyernas/',
+          //   styles: {
+          //     color: '#FFF',
+          //     background: '#3b5998'
+          //   }
+          // },
           {
             text: 'GitHub',
             icon: 'fab fa-github',
@@ -60,21 +64,21 @@ export default {
             }
           },
           {
-            text: 'LinkedIn',
-            icon: 'fab fa-linkedin',
-            url: 'https://www.linkedin.com/in/alexanyernas/',
-            styles: {
-              color: '#FFF',
-              background: '#0e76a8'
-            }
-          },
-          {
             text: 'Twitter',
             icon: 'fab fa-twitter',
             url: 'https://twitter.com/alexanyernas/',
             styles: {
               color: '#FFF',
               background: '#00acee'
+            }
+          },
+          {
+            text: 'YouTube',
+            icon: 'fab fa-youtube',
+            url: 'https://www.youtube.com/channel/UCGr3ZfqFGx5IoisgaUI_ZgA',
+            styles: {
+              color: '#FFF',
+              background: '#c4302b'
             }
           }
         ]
