@@ -35,12 +35,12 @@ export default {
   text-align: center;
   font-weight: 600;
   letter-spacing: 2px;
-  transition: .4s;
+  transition: all .6s ease 0s;
 
   &:hover
   {
     transform: scale(1.1);
-    box-shadow: 2px 2px 2px #fff;
+    box-shadow: 1px 1px 10px #444;
   }
 
   i

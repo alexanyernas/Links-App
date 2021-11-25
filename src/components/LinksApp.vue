@@ -36,15 +36,6 @@ export default {
     data () {
       return {
         links: [
-          // {
-          //   text: 'Facebook',
-          //   icon: 'fab fa-facebook',
-          //   url: 'https://facebook.com/alexanyernas/',
-          //   styles: {
-          //     color: '#FFF',
-          //     background: '#3b5998'
-          //   }
-          // },
           {
             text: 'GitHub',
             icon: 'fab fa-github',
@@ -75,7 +66,7 @@ export default {
           {
             text: 'YouTube',
             icon: 'fab fa-youtube',
-            url: 'https://www.youtube.com/channel/UCGr3ZfqFGx5IoisgaUI_ZgA',
+            url: 'https://www.youtube.com/c/AlexanyerNaranjo',
             styles: {
               color: '#FFF',
               background: '#c4302b'
@@ -92,7 +83,7 @@ export default {
 {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 *,
@@ -112,7 +103,7 @@ body
 .container
 {
   padding: 32px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
   min-height: 115vh;  
 }
 

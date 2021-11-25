@@ -2,7 +2,7 @@
     <header class="header">
         <div class="img"></div>
         <h3 class="title">Alexanyer Naranjo</h3>
-        <p class="description">Desarrollador web con un gran amor por el aprendizaje ☕</p>
+        <p class="description">Desarrollador Frontend con un gran amor por el aprendizaje ☕</p>
     </header>
 </template>
 
@@ -20,10 +20,11 @@
     {
         width: 150px;
         height: 150px;
-        background-image: url('../assets/Photo.jpg');
+        background-image: url('../assets/Profile.png');
         background-position: center;
         background-size: cover;
         border-radius: 50%;
+        border: 3px solid #FFF;
         margin-bottom: 10px;
     }
 
