@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <p><i class="fas fa-envelope"></i> alexanyernaranjo@gmail.com</p>
+        <p><i class="fas fa-envelope"></i> punicorpdev@gmail.com</p>
     </div>
 </template>
 

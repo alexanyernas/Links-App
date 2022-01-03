@@ -37,39 +37,39 @@ export default {
       return {
         links: [
           {
-            text: 'GitHub',
-            icon: 'fab fa-github',
-            url: 'https://github.com/alexanyernas/',
+            text: 'Sitio Web',
+            icon: 'fas fa-globe',
+            url: '#',
             styles: {
               color: '#FFF',
-              background: '#333'
+              background: '#441247'
             }
           },
           {
             text: 'Instagram',
             icon: 'fab fa-instagram',
-            url: 'https://instagram.com/alexanyernas',
+            url: 'https://instagram.com/puni.corp',
             styles: {
               color: '#FFF',
               background: '#de1b85'
             }
           },
           {
-            text: 'Twitter',
-            icon: 'fab fa-twitter',
-            url: 'https://twitter.com/alexanyernas/',
+            text: 'Telegram',
+            icon: 'fab fa-telegram-plane',
+            url: 'https://t.me/alegiannattasio',
             styles: {
               color: '#FFF',
-              background: '#00acee'
+              background: '#0088cc'
             }
           },
           {
-            text: 'YouTube',
-            icon: 'fab fa-youtube',
-            url: 'https://www.youtube.com/c/AlexanyerNaranjo',
+            text: 'WhatsApp',
+            icon: 'fab fa-whatsapp',
+            url: 'https://wa.me/+584120137644',
             styles: {
               color: '#FFF',
-              background: '#c4302b'
+              background: '#128C7E'
             }
           }
         ]
@@ -95,7 +95,7 @@ export default {
 
 body
 {
-  background-image: url('../assets/Background.jpg');
+  /* background-image: url('../assets/Background.jpg'); */
   background-position: center;
   background-size: cover;
 }
@@ -103,7 +103,7 @@ body
 .container
 {
   padding: 32px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(to bottom, rgba(210, 175, 255, 0.9), rgba(68, 18, 71, 0.9));
   min-height: 115vh;  
 }
 
