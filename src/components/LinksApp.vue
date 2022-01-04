@@ -39,7 +39,7 @@ export default {
           {
             text: 'Sitio Web',
             icon: 'fas fa-globe',
-            url: '#',
+            url: 'https://punicorp.com',
             styles: {
               color: '#FFF',
               background: '#441247'
@@ -95,7 +95,7 @@ export default {
 
 body
 {
-  /* background-image: url('../assets/Background.jpg'); */
+  background-image: url('../assets/Background.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -103,8 +103,8 @@ body
 .container
 {
   padding: 32px;
-  background: linear-gradient(to bottom, rgba(210, 175, 255, 0.9), rgba(68, 18, 71, 0.9));
-  min-height: 115vh;  
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(68, 18, 71, 0.5));
+  min-height: 100vh;  
 }
 
 .main
