@@ -37,6 +37,15 @@ export default {
       return {
         links: [
           {
+            text: 'Invítame un cafecito',
+            icon: 'fas fa-mug-hot',
+            url: 'https://paypal.me/alexanyernas',
+            styles: {
+              color: '#FFF',
+              background: '#0277BD'
+            }
+          },
+          {
             text: 'GitHub',
             icon: 'fab fa-github',
             url: 'https://github.com/alexanyernas/',
@@ -104,7 +113,7 @@ body
 {
   padding: 32px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
-  min-height: 115vh;  
+  min-height: 100vh;  
 }
 
 .main

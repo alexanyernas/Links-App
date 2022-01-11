@@ -20,7 +20,7 @@
     {
         width: 150px;
         height: 150px;
-        background-image: url('../assets/Profile.png');
+        background-image: url('../assets/Profile.jpg');
         background-position: center;
         background-size: cover;
         border-radius: 50%;
