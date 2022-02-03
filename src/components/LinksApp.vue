@@ -37,12 +37,12 @@ export default {
       return {
         links: [
           {
-            text: 'Invítame un cafecito',
-            icon: 'fas fa-mug-hot',
-            url: 'https://paypal.me/alexanyernas',
+            text: 'Punicorp',
+            icon: 'fas fa-code',
+            url: 'https://punicorp.com/',
             styles: {
               color: '#FFF',
-              background: '#0277BD'
+              background: '#441247'
             }
           },
           {
