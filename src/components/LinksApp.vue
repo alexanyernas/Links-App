@@ -64,6 +64,15 @@ export default {
             }
           },
           {
+            text: 'LinkedIn',
+            icon: 'fab fa-linkedin-in',
+            url: 'https://www.linkedin.com/in/alexanyernas/',
+            styles: {
+              color: '#FFF',
+              background: '#0E76A8'
+            }
+          },
+          {
             text: 'Twitter',
             icon: 'fab fa-twitter',
             url: 'https://twitter.com/alexanyernas/',
