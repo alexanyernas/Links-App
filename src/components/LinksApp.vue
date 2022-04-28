@@ -42,7 +42,7 @@ export default {
             url: 'https://punicorp.com',
             styles: {
               color: '#FFF',
-              background: '#441247'
+              background: '#9f56a5'
             }
           },
           {
@@ -52,6 +52,15 @@ export default {
             styles: {
               color: '#FFF',
               background: '#de1b85'
+            }
+          },
+          {
+            text: 'LinkedIn',
+            icon: 'fab fa-linkedin',
+            url: 'https://linkedin.com/company/punicorp',
+            styles: {
+              color: '#FFF',
+              background: '#0e76a8'
             }
           },
           {
@@ -95,7 +104,7 @@ export default {
 
 body
 {
-  background-image: url('../assets/Background.jpg');
+  background-image: url('../assets/Background.png');
   background-position: center;
   background-size: cover;
 }
@@ -103,7 +112,7 @@ body
 .container
 {
   padding: 32px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(68, 18, 71, 0.5));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(68, 18, 71, 0.2));
   min-height: 100vh;  
 }
 
