@@ -2,7 +2,7 @@
     <header class="header">
         <div class="img"></div>
         <h3 class="title">Punicorp</h3>
-        <p class="description">Convertimos tus ideas en realidad. Contacta con nosotros ☕</p>
+        <p class="description">Convertimos tus Ideas en Realidad 🦄</p>
     </header>
 </template>
 

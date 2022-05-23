@@ -66,7 +66,7 @@ export default {
           {
             text: 'Telegram',
             icon: 'fab fa-telegram-plane',
-            url: 'https://t.me/alegiannattasio',
+            url: 'https://t.me/punicorp',
             styles: {
               color: '#FFF',
               background: '#0088cc'
@@ -75,7 +75,7 @@ export default {
           {
             text: 'WhatsApp',
             icon: 'fab fa-whatsapp',
-            url: 'https://wa.me/+584120137644',
+            url: 'https://wa.me/+584129392080',
             styles: {
               color: '#FFF',
               background: '#128C7E'
