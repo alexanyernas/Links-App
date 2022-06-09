@@ -37,15 +37,6 @@ export default {
       return {
         links: [
           {
-            text: 'Punicorp',
-            icon: 'fas fa-code',
-            url: 'https://punicorp.com/',
-            styles: {
-              color: '#FFF',
-              background: '#441247'
-            }
-          },
-          {
             text: 'GitHub',
             icon: 'fab fa-github',
             url: 'https://github.com/alexanyernas/',
@@ -64,12 +55,12 @@ export default {
             }
           },
           {
-            text: 'LinkedIn',
-            icon: 'fab fa-linkedin-in',
-            url: 'https://www.linkedin.com/in/alexanyernas/',
+            text: 'TikTok',
+            icon: 'fab fa-tiktok',
+            url: 'https://www.tiktok.com/@alexanyernaranjo/',
             styles: {
               color: '#FFF',
-              background: '#0E76A8'
+              background: '#EE1D52'
             }
           },
           {
